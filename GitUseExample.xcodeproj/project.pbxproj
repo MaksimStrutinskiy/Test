@@ -18,6 +18,7 @@
 		D2336C2B1786D5100044EEF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2336C2A1786D5100044EEF2 /* Default-568h@2x.png */; };
 		D2336C2E1786D5100044EEF2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2336C2C1786D5100044EEF2 /* MainStoryboard.storyboard */; };
 		D2336C311786D5100044EEF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2336C301786D5100044EEF2 /* ViewController.m */; };
+		D2336C391786D7B60044EEF2 /* SomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2336C381786D7B60044EEF2 /* SomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		D2336C2D1786D5100044EEF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D2336C2F1786D5100044EEF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D2336C301786D5100044EEF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2336C371786D7B60044EEF2 /* SomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeClass.h; sourceTree = "<group>"; };
+		D2336C381786D7B60044EEF2 /* SomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,12 @@
 		D2336C1A1786D5100044EEF2 /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
-				D2336C231786D5100044EEF2 /* AppDelegate.h */,
-				D2336C241786D5100044EEF2 /* AppDelegate.m */,
 				D2336C2C1786D5100044EEF2 /* MainStoryboard.storyboard */,
 				D2336C2F1786D5100044EEF2 /* ViewController.h */,
 				D2336C301786D5100044EEF2 /* ViewController.m */,
 				D2336C1B1786D5100044EEF2 /* Supporting Files */,
+				D2336C371786D7B60044EEF2 /* SomeClass.h */,
+				D2336C381786D7B60044EEF2 /* SomeClass.m */,
 			);
 			path = GitUseExample;
 			sourceTree = "<group>";
@@ -96,6 +99,8 @@
 		D2336C1B1786D5100044EEF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2336C231786D5100044EEF2 /* AppDelegate.h */,
+				D2336C241786D5100044EEF2 /* AppDelegate.m */,
 				D2336C1C1786D5100044EEF2 /* GitUseExample-Info.plist */,
 				D2336C1D1786D5100044EEF2 /* InfoPlist.strings */,
 				D2336C201786D5100044EEF2 /* main.m */,
@@ -176,6 +181,7 @@
 				D2336C211786D5100044EEF2 /* main.m in Sources */,
 				D2336C251786D5100044EEF2 /* AppDelegate.m in Sources */,
 				D2336C311786D5100044EEF2 /* ViewController.m in Sources */,
+				D2336C391786D7B60044EEF2 /* SomeClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
